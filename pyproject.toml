@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "manim-ds"
+version = "0.1.0"
+description = "A Manim plugin to animate common data structures."
+authors = ["Fabio Missagia <fabio.missagia@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository="https://github.com/F4bbi/manim-ds"
+packages = [{include = "manim_dsa"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+manim = "^0.18.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
